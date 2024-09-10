@@ -1,0 +1,216 @@
+@import url("/police/police.css");
+
+.contenu {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: block;
+  animation: slide 1.5s ease-out;
+  margin-top: 10%;
+}
+
+
+.contenu .content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  padding: 5px;
+}
+  
+
+
+.contenu .content h2 {
+  justify-content: center;
+  margin: auto 10px;
+  color: #3D2DA6;
+  font-family: "beyno";
+  font-size: 32px;
+}
+
+.contenu-content {
+  display: block;
+  width: 60%;
+}
+
+.contenu .text-naissance{
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "cantarell";
+}
+
+.contenu .text-naissance q {
+  font-family: "cantarell";
+  font-size: 14px;
+}
+
+
+.contente {
+  display: block;
+  position: relative;
+  margin-left: 5%;
+}
+
+@media (max-width : 768px) {
+  .contenu-content {
+    width: 100%;
+    left: 0px;
+  }
+  .contente {
+    margin-top: 10%;
+  }
+
+  .hero-image {
+    margin-left: 0%;
+  }
+  .texte-hero, .contenu .text-naissance {
+    width: 420px;
+  }
+}
+
+.contente .card {
+  width: 400px;
+  height: 750px;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 50%;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.card .card-image {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: -60%;
+}
+
+.card-image img {
+  width: 374px;
+  height: 527px;
+}
+
+.card-image img:hover {
+  width: 450px;
+  height: 634px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.contente .card-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  position: absolute;
+}
+
+.contente .card-title h3 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color: #000;
+  align-items: center;
+  height: 55vh;
+  font-family: "cantarell";
+}
+
+.contente .card-title .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-left: 5px;
+  background-color: #07338C;
+  color: #ffffff;
+}
+
+.contente .card-content {
+  width: 250px;
+  justify-content: center;
+  position: absolute;
+  margin-top: 90%;
+  font-size: 16px;
+  font-family: "cantarell";
+}
+
+/* section heros */
+
+.container-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-image {
+    justify-content: center;
+    min-width: 200px;
+}
+
+.hero-image img {
+    width: 509px;
+    height: 435px;
+}
+
+.hero-image img:hover {
+  width: 692px;
+  height: 591px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.hero-text {
+  flex: 1;
+  width: 100%;
+  
+}
+
+.section-title {
+  width: 100%;
+  font-size: 32px;
+  margin-left: 150px;
+  font-family: "beyno";
+  color: #3D2DA6;
+  margin-bottom: 50px;
+}
+
+.texte-hero {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "cantarell";
+  margin-left: 15%;
+}
+
+.texte-hero q {
+  font-size: 14px;
+  font-family: "cantarell";
+}
+
+
+@media (max-width: 768px) {
+  .container-hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .hero-text {
+    width: 100%;
+    display: block;
+  }
+
+  .section-title {
+    width: 100%;
+    margin-left: 80px;
+  }
+}
+
+
+/*# sourceMappingURL=contenu.css.map */

@@ -1,0 +1,195 @@
+@import url('../Accueil/police/police.css'); 
+@import url('../Accueil/header/header.css');
+@import url('./footer/footer.css');
+@import url('./contenu/contenu.css'); 
+@import url('./modal/modal.css');
+
+header {
+    width: 100%;
+    height: auto;
+    background-image: url('./Ilustrations/arrière_plan.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#canva {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1000;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  
+  .first-section {
+    width: 50%;
+    display: block;
+  }
+
+  
+  .first-section img {
+    width: 100%;
+    height: 100%;
+    margin-top: -10%;
+    margin-left: 10%;
+    object-fit: cover;
+    filter: brightness(100%);
+    opacity: 1;
+  }
+
+  
+  .second-section {
+    width: 50%;
+    display: block;
+  } 
+
+  
+  .second-section h1 {
+    font-size:  50px !important;
+    margin-top: 20%;
+    letter-spacing: 5px; 
+    color: #3D2DA6;
+    font-size: 32px;
+    font-family: 'beyno';
+  }
+
+
+  .image-enigme {
+    width: 700px;
+  }
+  
+  .second-section img {
+    width: 110%;
+    height: 110%;
+    margin-left: -10%;
+  }
+   
+  
+  .text {
+    position: absolute;
+    top: 63%;
+    left: 53%; 
+    width: 400px;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'cantarell';
+  }
+
+  .dora {
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .logo img {
+      font-size: auto;
+      padding: 0 5px;
+      object-fit: contain;
+  }
+
+    section .second-container img {
+      width: 100%;
+      margin-top: 70px;
+      justify-content: flex-end;
+  }
+    .first-section {
+        width: 40%;
+        display: flex;
+        padding: 20px;
+        object-fit: cover;
+      }
+      .first-section img {
+        width: 200%;
+        display: flex;
+        object-fit: cover;
+        opacity: 1;
+        z-index: 1;
+      }
+      .second-section {
+        width: 100%;
+        display: flex;
+        margin-left: 10%;
+      }
+    
+      .second-section h1 {
+        font-size: 20px;
+        margin-left: 40%;
+        color: #3D2DA6;
+      }
+    
+      .second-section img {
+        width: 200px;
+        margin-left: -80%;
+        margin-top: 30%;
+      }
+       
+      .text {
+        width: 300px;
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 28%;
+        color: #ffffff;
+        font-size: 10px;
+      }
+
+      .question {
+        width: 100px;
+        justify-content: center;
+        margin-top: 40%;
+        color: #ffffff;
+        font-size: 10px;
+        margin-left: -4%; 
+        position: absolute;      
+      }
+
+      form input {
+        border: 1px solid  black;
+        outline: none;
+        padding: 10px;
+        border-radius: 20px;
+        width: 200px;
+        height: 10px;
+        background-color: transparent;
+      }
+      
+      .button {
+        width: 74px;
+        height: 24px;
+        font-size: 20px;
+        color: #000;
+        margin-top: 100%;
+        background-color: #ffffff;
+        display: flex;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+        border-radius: 38px;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        opacity: 1;
+     }
+  }
+  
+ 
+ 
+
+  
+
+
+
+
+
+
+       

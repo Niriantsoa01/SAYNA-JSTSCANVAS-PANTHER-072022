@@ -1,0 +1,46 @@
+.content {
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+    animation: slide 1.5s ease-out;
+    .image {
+        width: 900px;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        opacity: 0.3;
+        margin-left: 15%;
+        z-index: 1;
+    }
+        h2 {
+            color: #3D2DA6;
+            margin-left: 50px;
+            font-family: 'beyno';
+            font-size: 32px;   
+        }
+ }
+ .row::after {
+    content: "";
+    clear: both;
+    display: flex;
+}
+
+.text-content {
+    color: #FFFFFF;
+    width: 500px;
+    text-align: justify;
+    margin-left: 50px;
+    justify-content: space-between;
+    font-family: 'cantarell';
+    font-size: 16px;
+        q {
+            font-size: 14px;
+            font-family: 'cantarell';
+        }
+}
+video {
+    margin-top: -20px;
+    margin-left: 50px;
+}

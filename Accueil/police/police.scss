@@ -1,0 +1,24 @@
+$beyno : 'beyno';
+$cantarell : 'cantarell';
+$panthere : 'panthere';
+$wakanda : 'wakanda';
+
+@font-face {
+    font-family: $beyno;
+    src: url('../fonts/beyno-regular.otf');
+}
+
+@font-face {
+    font-family: $cantarell;
+    src: url('../fonts/cantarell-regular.ttf');
+}
+
+@font-face {
+    font-family: $panthere;
+    src: url('../fonts/panthera.otf');
+}
+
+@font-face {
+    font-family: $wakanda;
+    src: url('../fonts/WakandaForever-Regular.ttf');
+}

@@ -1,0 +1,140 @@
+.plus img:nth-child(1):hover {
+  transform: scale(1.1);
+}
+
+.plus img:nth-child(2):hover {
+  transform: scale(1.1);
+}
+
+.plus img:nth-child(3):hover {
+  transform: scale(1.1);
+}
+
+.plus img:nth-child(4):hover {
+  transform: scale(1.1);
+}
+
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 500px;
+  display: block;
+  background-image: url("../Ilustrations/back_footer.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "cantarell";
+  position: absolute;
+}
+
+
+.container-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.footer-content {
+  width: 30%;
+  display: block;
+}
+
+.footer-content :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.opacity {
+  opacity: 1;
+  margin-left: 100px;
+}
+
+.image-container {
+  width: 500px;
+  margin-top: -50%;
+  margin-left: 40%;  
+}
+
+.image-container img {
+  width: auto;
+}
+
+.page-content {
+  display: block;
+  width: 40%;
+  margin-left: 15%;
+}
+
+.page-title p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-contact {
+  width: 30%;
+  display: block;
+  margin-left: -10%;
+}
+
+.footer-contact img {
+  margin: 5px;
+}
+
+.footer-contact :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.ending {
+  display: block;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 35%;
+  color: #ffffff;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .opacity img {
+      width: 200px;
+      margin-left: -100px;
+  }
+
+  .ending {
+      display: flex;
+      margin-top: 60%;
+      margin-left: 0px;
+      text-align: center;
+  }
+
+  .page-content {
+      margin-left: 10%;
+  }
+
+  .footer-contact {
+      width: 100%;
+      display: block;
+    }
+  
+    .footer-contact img {
+      margin: 5px;
+      display: inline-block;
+    }
+
+    .image-container {
+      width: 500px;
+      margin-top: -100%;
+      margin-left: 20%;  
+    }
+}
+
+/*# sourceMappingURL=footer.css.map */

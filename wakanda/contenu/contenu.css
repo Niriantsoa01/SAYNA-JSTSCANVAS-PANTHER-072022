@@ -1,0 +1,75 @@
+
+.row {
+  flex-direction: row;
+  display: flex;
+}
+
+@media (max-width : 768px) {
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+}
+
+.content {
+  display: grid;
+  float: left;
+  margin: 0 auto;
+  animation: slide 1.5s ease-out;
+}
+
+.content .image {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0.3;
+  margin-left: 15%;
+  z-index: 1;
+}
+
+
+.content .wakandas:hover {
+  width: 831px; 
+ height: 464px;
+ cursor: pointer;
+} 
+
+.content h2 {
+  color: #3D2DA6;
+  margin-left: 50px; 
+  font-family: "beyno";
+  font-size: 32px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.text-content {
+  color: #FFFFFF;
+  width: 600px;
+  text-align: justify;
+  margin-left: 50px;
+  justify-content: space-between;
+  font-family: "cantarell";
+  font-size: 16px;
+}
+
+.text-content q {
+  font-size: 14px;
+  font-family: "cantarell";
+}
+
+video {
+  margin-top: -20px;
+  margin-left: 50px;
+}
+
+
+/*# sourceMappingURL=contenu.css.map */

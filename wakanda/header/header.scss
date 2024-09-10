@@ -1,0 +1,39 @@
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .first-container {
+        width: 25%;
+        color: white;
+        animation: slide 1.5s ease-out;
+    }
+    .second-container {
+        width: 60%;
+        z-index: -1;
+    }
+}
+
+.black-panther {
+    color: #3D2DA6;
+    width: 600px;
+    font-size: 43px;
+    margin-top: 150px;
+    font-family: 'beyno';
+ }
+
+ .wakanda-forever {
+    color: #3D2DA6;
+    width: 500px;
+    font-size: 43px;
+    font-family: 'wakanda';
+ }
+
+ /* paragraphe dessous */
+.story {
+    margin-top: 40px;
+    animation: slide 1.5s ease-out;
+    color: #ffffff;
+    font-family: 'cantarell';
+    font-size: 16px;
+}

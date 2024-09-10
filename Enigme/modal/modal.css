@@ -1,0 +1,131 @@
+.confirm {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.confirm p {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.modal-content {
+  background: linear-gradient(
+  0deg,
+  rgba(61, 45, 166, 1) 0%,
+  rgba(2, 23, 64, 1) 100%
+);
+  filter: blur(3.45px);   
+  border-radius: 30px;
+  border: 1px solid transparent;
+  margin-left: 25%;
+  width: 50%;
+  height: 600px;
+  padding: 20px;
+  z-index: 2;
+}
+
+.inside {
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 31%; 
+  width: 40%;
+  height: 500px;
+  background: linear-gradient(
+    0deg,
+    rgba(158, 145, 183, 1) 0%, /* #9E91B7 à 100% d'opacité */
+    rgba(61, 45, 166, 0) 100% /* #3D2DA6 à 0% d'opacité */
+  );
+  box-shadow: 0 3.45px 3.45px rgba(0, 0, 0, 0.04);
+  border-image: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%, /* #FFFFFF à 100% d'opacité */
+    rgba(255, 255, 255, 0) 100% /* #FFFFFF à 0% d'opacité */
+  );
+  border-radius: 20px;
+  z-index: 3;
+}
+
+.inside h2 {
+  width: 250px;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 30%;
+  font-family: 'cantarell';
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.inside p {
+  width: 300px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 30%;
+  font-family: 'cantarell';
+}
+
+.inside button {
+  width: 200px;
+  height: 54px;
+  background-color: #DF99F2;
+  color: #021740;
+  text-transform: uppercase;
+  font-family: 'cantarell';
+  font-weight: bolder;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'cantarell';
+  margin-top: 50px;
+  margin-left: 35%;
+}
+
+.inside img {
+  width: 50px;
+  position: absolute;
+  top: 75%;
+  left: 20%;
+}
+
+.inside div {
+  color: #ffffff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'cantarell';
+  margin-top: 15%;
+  margin-left: 30%;
+}
+
+
+.countdown {
+  margin: 10px;
+  width: 100%; 
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  }
+  .countdown div {
+    background-image: url('');
+   margin: 0 5px;
+   font-size: 1.5em;
+   letter-spacing: 10px;
+   font-weight: bolder;
+   margin-top: -25%;
+   position: relative;
+   width: 70px;
+  }
+
+
+/*# sourceMappingURL=modal.css.map */

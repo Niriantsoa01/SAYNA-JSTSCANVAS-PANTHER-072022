@@ -1,0 +1,138 @@
+
+.contenu-enigme {
+  display: flex;
+  flex-direction: row;
+  background-image: url('../Ilustrations/arrière_plan.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 50px;
+}
+ 
+
+.first-contenu {
+  width: 45%;
+  display: block;
+  margin-left: 5%;
+}
+
+.enigme-title {
+  font-family: 'beyno';
+  color: #3D2DA6;
+  font-size: 34px;
+}
+
+.enigme-title span {
+  color: #3D2DA6;
+  font-family: 'cantarell';
+}
+
+.description {
+  color: #ffffff;
+  font-family: 'cantarell';
+}
+
+.enigme {
+  font-family: 'wakanda';
+  color: #3D2DA6;
+  font-size: 30px;
+  letter-spacing: 10px;
+  line-height: 40px;
+}
+
+.enigme p {
+  font-family: 'cantarell';
+  color: #ffffff;
+  font-size: 15px;
+  width: 100%;
+
+}
+
+
+.texte span {
+  content: "";
+  font-family: "wakanda";
+}
+
+.question {
+  width: 300px;
+  margin-top: 10%;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+form {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+form input {
+  width: 520px;
+  height: 56px;
+  color: #ffffff;
+  display: block;
+  border: 1px solid rgb(223, 219, 219);
+  outline: none;
+  border-radius: 38px;
+  padding-left: 20px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+form input::placeholder {
+  color: #ffffff;
+}
+
+ .first-contenu button {
+  width: 174px;
+  height: 54px;
+  font-size: 15px;
+  font-family: 'cantarell';
+  font-weight: bolder;
+  color: #000;
+  margin-top: 5%;
+  margin-left: 20%;
+  background-color: #f2cef2;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  border-radius: 38px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+button:hover {
+  box-shadow: 0 0 10px 10px  #F2CEF2;
+  filter: blur(20);
+  left: 0;
+  top: 0;
+}
+
+
+.second-contenu {
+  width: 40%;
+  display: block;
+}
+
+.second-contenu img {
+  width: 130%;
+  text-align: center;
+  justify-content: center;
+}
+
+.texte {
+  width: 350px;
+  position: absolute;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  white-space: pre-line;
+  top: 25%;
+  justify-content: center;
+  margin-left: 10%;
+  font-size: 16px;
+  font-family: "cantarell";
+}
+
+
+/*# sourceMappingURL=contenu.css.map */
